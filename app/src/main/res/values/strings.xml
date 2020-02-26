@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">morse</string>
+    <string name="main_title">_. MORSE ._</string>
+    <string name="textToMorse_btn">Text to Morse</string>
+</resources>
