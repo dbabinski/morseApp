@@ -18,12 +18,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // animation of background
         ConstraintLayout layout = findViewById(R.id.layout);
         AnimationDrawable animationDrawable = (AnimationDrawable) layout.getBackground();
         animationDrawable.setEnterFadeDuration(2000);
         animationDrawable.setExitFadeDuration(4000);
         animationDrawable.start();
 
+        // grab elements
         Button buttonMain = findViewById(R.id.button);
         buttonMain.setOnClickListener(new View.OnClickListener() {
             @Override

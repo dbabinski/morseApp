@@ -9,7 +9,12 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.widget.EditText;
 import android.widget.TextView;
-
+/*
+        TRANSLATE WORDS TO MORSE CODE
+        ============================
+        author: SB
+        date: 27 february A.D.2020
+*/
 
 public class TextToMorseActivity extends AppCompatActivity {
 
@@ -28,7 +33,7 @@ public class TextToMorseActivity extends AppCompatActivity {
         animation.setExitFadeDuration(4000);
         animation.start();
 
-        //
+        // grab elements
         final EditText text = findViewById(R.id.editText);
         final TextView morseCode = findViewById(R.id.morse_code_text);
         //
