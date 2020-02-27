@@ -39,7 +39,7 @@ public class TextToMorseActivity extends AppCompatActivity {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 translateMorse translateMorse = new translateMorse();
-                String textConvert = text.getText().toString();
+                String textConvert = text.getText().toString().toUpperCase();
                 String translatedText = translateMorse.translate(textConvert);
                 morseCode.setText(translatedText);
             }
